@@ -32,6 +32,7 @@ check_update(){ #检查更新工具
     rm -rf "$TMPDIR"/crashversion
 }
 update_core(){ #自动更新内核
+[ ! -f "$CRASHDIR/local/manager.sh" ] || { sh "$CRASHDIR/local/manager.sh" update latest; return $?; } #local-manager-safe-task
     #检查版本
     check_update bin/version
     crash_v_new=$(eval echo \$${crashcore}_v)
@@ -82,6 +83,7 @@ update_scripts(){ #自动更新脚本
                 return 1
             else
                 . "$CRASHDIR"/init.sh >/dev/null
+                [ ! -f "$CRASHDIR"/local/apply.sh ] || sh "$CRASHDIR"/local/apply.sh >>"$CRASHDIR"/local/apply.log 2>&1 || echo "本地补丁恢复失败，请查看 local/apply.log" >&2 #local-upx
                 "$CRASHDIR"/start.sh start
                 return 0
             fi
@@ -129,13 +131,13 @@ web_save_auto(){
     . "$CRASHDIR"/libs/web_save.sh && web_save
 }
 update_config() { #更新订阅并重启
-    . "$CRASHDIR"/starts/core_config.sh get_core_config && "$CRASHDIR"/start.sh start
+    . "$CRASHDIR"/starts/core_config.sh && get_core_config && "$CRASHDIR"/start.sh start #local-subconv-update
 }
 hotupdate() { #热更新订阅
     . "$CRASHDIR"/starts/core_config.sh && get_core_config &&
     . "$CRASHDIR"/starts/check_core.sh && check_core &&
     . "$CRASHDIR"/starts/"$target"_modify.sh && modify_"$format" && rm -rf "$TMPDIR"/CrashCore &&
-    . "$CRASHDIR"/libs/web_restore.sh && put_save "http://127.0.0.1:$db_port/configs" "{\"path\":\"$TMPDIR/config.$format\"}"
+    . "$CRASHDIR"/libs/subconv.sh && subconv_reload #local-subconv-reload
     exit $?
 }
 

@@ -1,0 +1,692 @@
+{
+  "snapshot_date": "2026-10-18",
+  "resources": [
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/ads.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/ads.list",
+      "path": "base/rules/4bd5d170e03ebfe74610cc1b.list",
+      "sha256": "95b8ffb879dfdde5ba9b9201895642f6e1af99ed0360df6809b8ee0ef8f5c6b4",
+      "bytes": 3408104,
+      "lines": 102892,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/ai.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/ai.list",
+      "path": "base/rules/f925ff660bb45cf84e3f1625.list",
+      "sha256": "ae01e540c88a60a234b42420bd441070a64bd6c25ff70265c52b0a726f64fa00",
+      "bytes": 6095,
+      "lines": 202,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/apple-cn.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/apple-cn.list",
+      "path": "base/rules/13efeca0ea87d99ef11d3b5c.list",
+      "sha256": "f47a38a9ad62ad9c5e451eb63a90f3f1dc8e376b627ea89fff28058bf59a2e54",
+      "bytes": 8713,
+      "lines": 245,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/cn-lite.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/cn-lite.list",
+      "path": "base/rules/e8e9f9f6c0d6d2fc6861f664.list",
+      "sha256": "7e20c23bcf82d06459a68a16cf143ff8b1e6d9c580b0e19074db2e1f34730c67",
+      "bytes": 149316,
+      "lines": 5615,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/cn.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/cn.list",
+      "path": "base/rules/b7f9e09940086294a4691e6e.list",
+      "sha256": "4d2af497176fa8dee7c7335e202da0fc9d6c24933fcc11522161206ccf067e36",
+      "bytes": 2926648,
+      "lines": 109891,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/games-cn.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/games-cn.list",
+      "path": "base/rules/863bba884996983efbadfbe1.list",
+      "sha256": "66255d5e0b880573c279631af90c7d42373eb7f86a2e813446dd7c78e29d8c41",
+      "bytes": 9424,
+      "lines": 344,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/games.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/games.list",
+      "path": "base/rules/745e7153e276645ab2a8ff8a.list",
+      "sha256": "25c849b0b301e28416ac3cbd496dd85dde12a79a2da99eccaf137ff50748a31c",
+      "bytes": 27694,
+      "lines": 903,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/gfw.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/gfw.list",
+      "path": "base/rules/16a0d17ba938c34b5fda2af9.list",
+      "sha256": "8731d97df5e824560b14585af6e743fc828456f31dc62d0af3cc3551cec381f6",
+      "bytes": 121570,
+      "lines": 4432,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/google-cn.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/google-cn.list",
+      "path": "base/rules/c96df711b38d97f8865197dd.list",
+      "sha256": "ae992bbe99e372cc27862810f5e9dd16640dae978429e629f24771274900d234",
+      "bytes": 4725,
+      "lines": 137,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/media.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/media.list",
+      "path": "base/rules/927bbff5a8b0d4ad2b761546.list",
+      "sha256": "6e7cb69f60024620cd2a8417f5519a7dc52541263fdef62a401a7457a679ff6d",
+      "bytes": 37482,
+      "lines": 1307,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/microsoft-cn.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/microsoft-cn.list",
+      "path": "base/rules/e7702cbfce92b3f3c892e47b.list",
+      "sha256": "04a7231c141abfbd0de36f886b122840f8e43e63ef1963d568efb7ee5c20d087",
+      "bytes": 6254,
+      "lines": 189,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/netflix.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/netflix.list",
+      "path": "base/rules/e777b29b2ea82133f2b2104f.list",
+      "sha256": "67b8da179ff74ee2c6f5b9cf7c2b13de4d8d79dc6ea209ad4e26e398ae6b86c8",
+      "bytes": 1136,
+      "lines": 36,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/networktest.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/networktest.list",
+      "path": "base/rules/7f6652f0f5575595d5b10f3d.list",
+      "sha256": "88cad8dc80a2c2ba174cfa1cbc32a328d5a96e83317183d9f458a47b97d0da37",
+      "bytes": 8498,
+      "lines": 308,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/private.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/private.list",
+      "path": "base/rules/42bed1e462df569c693ae476.list",
+      "sha256": "d3d02d4a696b162a34b70829cad27cc3ca931a97d260c866e5fc8971601201e2",
+      "bytes": 4509,
+      "lines": 141,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/proxy.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/proxy.list",
+      "path": "base/rules/ac1b7e3aae91670f36ce6a6d.list",
+      "sha256": "ab53f76fd8f6af504ef394b5a06ad74f26db1f86946f162c987377d81d27878a",
+      "bytes": 756492,
+      "lines": 26541,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/tld-proxy.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/tld-proxy.list",
+      "path": "base/rules/c6882b2f51166b80cf0525a6.list",
+      "sha256": "f585a3c8b840940af087dd30d56730e021721f78d1573bbbaf387d40b9378477",
+      "bytes": 16785,
+      "lines": 829,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/trackerslist.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/trackerslist.list",
+      "path": "base/rules/16d85f7d376c1b383c098b72.list",
+      "sha256": "c955e073b493065b07eedfd9524309d1211ac2373a0519b19e0507cedc618e2e",
+      "bytes": 2766,
+      "lines": 104,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/youtube.list",
+      "source_url": "https://github.com/DustinWin/domain-list-custom/releases/download/domains/youtube.list",
+      "path": "base/rules/eced2e52eb5208a4fc88d865.list",
+      "sha256": "2554367bd0b40b1e11bb817941a836a91c880221a4ed0053eda48d971a210a85",
+      "bytes": 4945,
+      "lines": 181,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/cnip.list",
+      "source_url": "https://github.com/DustinWin/geoip/releases/download/ips/cnip.list",
+      "path": "base/rules/ba8cc95270714195012e1da6.list",
+      "sha256": "38e856b20af80e56658c31861d3b3f9d221e40d78cafb12cdf3dd619ce75cfed",
+      "bytes": 236740,
+      "lines": 9806,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/mediaip.list",
+      "source_url": "https://github.com/DustinWin/geoip/releases/download/ips/mediaip.list",
+      "path": "base/rules/ff9e62ba1df6aac8e0c22287.list",
+      "sha256": "99574747674e9bdf3ce2535821efcc55578f1af6d9ecb7ed61f4b19b22e03c35",
+      "bytes": 22839,
+      "lines": 924,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/netflixip.list",
+      "source_url": "https://github.com/DustinWin/geoip/releases/download/ips/netflixip.list",
+      "path": "base/rules/1f610f711967c38c190bcd97.list",
+      "sha256": "4959e53d45959a1803c4fec07598cbb3f5e15b33b34dc915972b778c871707fd",
+      "bytes": 26678,
+      "lines": 1121,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/privateip.list",
+      "source_url": "https://github.com/DustinWin/geoip/releases/download/ips/privateip.list",
+      "path": "base/rules/65a4691a0063b1f075acfb50.list",
+      "sha256": "f97b5ff6db980d1ffca261e1feba9a98a3a15240263c7cc8e5f0b12d96e50829",
+      "bytes": 372,
+      "lines": 18,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/telegramip.list",
+      "source_url": "https://github.com/DustinWin/geoip/releases/download/ips/telegramip.list",
+      "path": "base/rules/ae0e7669732da72d7d8fe628.list",
+      "sha256": "50fb4b6396d2f49288d3b1158793e7c3008e8dfbc151d9a5f4b9d5f39c9798af",
+      "bytes": 293,
+      "lines": 12,
+      "template_format_note": "Upstream .list asset contains Surge DOMAIN/IP-CIDR lines, not native Clash YAML. Local reference intentionally removes incompatible clash-domain/clash-ipcidr prefix."
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+      "path": "base/rules/26dcf8cb8a632d68aee23487.list",
+      "sha256": "7b2e60cd0bf3c4bfb1369890d39cc3783bdfcb016089b78acee0ff6f0d4e51c5",
+      "bytes": 922,
+      "lines": 31
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+      "path": "base/rules/abee8c0e55138e09c8782383.list",
+      "sha256": "27a5f6d018d428409d8da5d9f390a46298d505ae4941bb8172f052055abe7262",
+      "bytes": 15550,
+      "lines": 600
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list",
+      "path": "base/rules/9a975beaed5b0e319e384cfb.list",
+      "sha256": "084aa963439be3b9718d809d11e4b0fa687136ec7b94ed5276c9829c41efe56f",
+      "bytes": 1330607,
+      "lines": 40983
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list",
+      "path": "base/rules/dfe1debfebd9e0bcde12cf01.list",
+      "sha256": "dcbc1a18b9723747fc26a3a922c04917b0c15378725035171a502fcf2c2653cf",
+      "bytes": 138693,
+      "lines": 5056
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list",
+      "path": "base/rules/59e8fab4e347b2b4fcfe4344.list",
+      "sha256": "e8422e996453ad7797461db4a597d4c9e16cc7b4824349d30da85dd8b6e1656c",
+      "bytes": 1443096,
+      "lines": 39858
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+      "path": "base/rules/28594a4ab30a116f3a7adddb.list",
+      "sha256": "35cefd7a4c01d2efa9b4c7928e21caa348f78a3f60b46d7d850f1e3334a5a766",
+      "bytes": 32638,
+      "lines": 1134
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list",
+      "path": "base/rules/a42987c0fe4d8887653edad5.list",
+      "sha256": "cbc63e3daee0c0467558394ce0cfdd342f28e6c0f903bc4b35b6a5f06279d160",
+      "bytes": 7257,
+      "lines": 215
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list",
+      "path": "base/rules/f5fc54a5a045fcbc04110aa0.list",
+      "sha256": "362edd1f605742b360eaf138f151d7eea96cc17f20ef12da73acbfb80c350e08",
+      "bytes": 17251,
+      "lines": 726
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
+      "path": "base/rules/6f4a07908bba180b27b9759f.list",
+      "sha256": "bb62220ae6ba9ee37421d0ba8ec734dc9d71af2cc8cd7209685f0d4939d7cca2",
+      "bytes": 259593,
+      "lines": 7461
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list",
+      "path": "base/rules/dc99e46a0345fd3e52ee5c2a.list",
+      "sha256": "0eac53e2b8846f7d56c879b20c55dec630c1755a7b2f2d1581923c26a0799a9f",
+      "bytes": 57319,
+      "lines": 1507
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list",
+      "path": "base/rules/49a8480dde3cdd7a5b1d40bc.list",
+      "sha256": "69c437c641bbbea0001f33ecf6e8a6333a72f53d537b19ac9fd564d6927a2b21",
+      "bytes": 1306,
+      "lines": 53
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+      "path": "base/rules/60a8ec99db932a13f4cfdf12.list",
+      "sha256": "62b72d16b8f2bcbc80eb2c7af35dc03b31c4d82e732af6d227c2a311f04bdadc",
+      "bytes": 928,
+      "lines": 29
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list",
+      "path": "base/rules/8424d68f6509ae5d7f7eacee.list",
+      "sha256": "00ffcc16d0eb1898cba4f9c2cc2ce76a8f70bef7a03aea436dad79982b77c8ca",
+      "bytes": 1016,
+      "lines": 30
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+      "path": "base/rules/acf094a53990a9170473932d.list",
+      "sha256": "0789504d97d8f5b14513c529c61c06f4f862c5cfd20f7cb30bbcd38357e54468",
+      "bytes": 1217,
+      "lines": 45
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+      "path": "base/rules/ed6d00d37db5aef093aa262c.list",
+      "sha256": "b502566c1b86d5512111bd4a2bb5d808eda4e36aad3009a3ca05da354c09449e",
+      "bytes": 2331,
+      "lines": 82
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
+      "path": "base/rules/1332c956179b4f7b70018358.list",
+      "sha256": "72d5f97cb3adedd7ef632962effda4aa3b9953da20427cd6050d55d1184de5ea",
+      "bytes": 191112,
+      "lines": 7052
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
+      "path": "base/rules/51fc7dc5d9a05d725e7204de.list",
+      "sha256": "3792437f9641479c671ed57e4d3aa81505c5f7dc5d9087fdeabe76551ecda671",
+      "bytes": 12615,
+      "lines": 502
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list",
+      "path": "base/rules/41da071f3785cb926d8e36b8.list",
+      "sha256": "fe886c6f537c0214446018f3f64291db8d500c58877d180d2a21a78c19c499e1",
+      "bytes": 11502,
+      "lines": 471
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list",
+      "path": "base/rules/6939319a18c17b616ea353cf.list",
+      "sha256": "5c2b875abd3cec4d11612af639163a9b9f68c5828ad42793e7f21bc50f75169c",
+      "bytes": 182,
+      "lines": 7
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list",
+      "path": "base/rules/cc9a5c573985fae573cbba35.list",
+      "sha256": "074d94bc66219f7a229a0ddc7150e3befb088b4fbbe3312dc3f95456b2fef96c",
+      "bytes": 795,
+      "lines": 23
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list",
+      "path": "base/rules/82bebc38d682c98c34d76e67.list",
+      "sha256": "97200f549abb5bbb72909abc58afbffdb1f42f35cbcc35366eaf873905e007c6",
+      "bytes": 710,
+      "lines": 22
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list",
+      "path": "base/rules/2c448de1dd1d1081eafad617.list",
+      "sha256": "f115f84bef66a5aa931fd20f23d6914cdfdfe3d07795d65549d578b91a0f0c48",
+      "bytes": 1614,
+      "lines": 46
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list",
+      "path": "base/rules/ba8da7f9325c3c853f1efa98.list",
+      "sha256": "8254e2518082103b7b3f88063562cefc3e04350b74aa411aad0ee4a66e8a9338",
+      "bytes": 1367,
+      "lines": 39
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list",
+      "path": "base/rules/40b4104317cc990843b8b030.list",
+      "sha256": "eb09e16b5aa228230e5770bfc04f2eb25261454a0b2e16f05fd3e9d2ab5202b5",
+      "bytes": 1331,
+      "lines": 42
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list",
+      "path": "base/rules/b1174c6fcbbe17f9b7c17671.list",
+      "sha256": "bf135f78199fbadcb663a047d70eb59ec81bead3a04cfe050036e2921c2ea607",
+      "bytes": 497,
+      "lines": 18
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+      "path": "base/rules/1e8c5527e34813b054e08116.list",
+      "sha256": "5e9d81d4615d993fb899d11f761ff5272465bf11e52233c656c3c3e4ab9cd800",
+      "bytes": 418,
+      "lines": 16
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+      "path": "base/rules/85593da4a0cbe0cd6b63f029.list",
+      "sha256": "483f613b31a1c054ddfffa6584b449f4447944ea58b8c1fc06b67eb13c09db89",
+      "bytes": 479,
+      "lines": 16
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+      "source_url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+      "path": "base/rules/0d9969ff7335084f8949fdd0.list",
+      "sha256": "016837560f1f0eeb576f81600c95b547bd82e27ba27a175a3b5010de9bd18ffa",
+      "bytes": 1048,
+      "lines": 58
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list",
+      "source_url": "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game.list",
+      "path": "base/rules/3a225180dd12d22ed29d5b10.list",
+      "sha256": "25a462283ce24582c2cfa7f8a5229d0abba6e129227a75c994eafa93cc2a53d2",
+      "bytes": 18949,
+      "lines": 636
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list",
+      "source_url": "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list",
+      "path": "base/rules/dc356652fd51f2d26d040688.list",
+      "sha256": "cb13ebefb8b6300c79425cedd9522dd812648ea38a43562c6e6aaf0de6225dde",
+      "bytes": 17941,
+      "lines": 501
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AI%20Suite.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AI%20Suite.list",
+      "path": "base/rules/a40dffd177796b4dcf268697.list",
+      "sha256": "295305df51505531f0d991617c66123af456b67b6dc03450f2241a9549a59126",
+      "bytes": 9037,
+      "lines": 305
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/AdBlock.list",
+      "path": "base/rules/d97ed659a7fbcf8fb29e0f70.list",
+      "sha256": "fe60252652543c48636db4bd15ddec4880ac9a7306f21ca79b07fdb02a80b872",
+      "bytes": 213332,
+      "lines": 7296
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Apple.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Apple.list",
+      "path": "base/rules/5af3b4f8f6cfa1e554baa3c1.list",
+      "sha256": "03709a901e5b310331bdcd65ccf024f06a003dabd2dade136d7d2be7c838d95e",
+      "bytes": 858,
+      "lines": 30
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Crypto.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Crypto.list",
+      "path": "base/rules/19c28180a28d943b0d9ec621.list",
+      "sha256": "006d94d92ecffaebe2069a2b1659583316c511c875c0bedfcc762971d2ada136",
+      "bytes": 7353,
+      "lines": 311
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Discord.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Discord.list",
+      "path": "base/rules/b7583abdba0032c6cb1c8438.list",
+      "sha256": "9dd9bea68c9bc77d94cb4d4e908841cfff9a20beafacb9c84664d7f0b7256a4e",
+      "bytes": 259,
+      "lines": 10
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Domestic.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Domestic.list",
+      "path": "base/rules/8d8af78c8df3431be9e06b2c.list",
+      "sha256": "86463747f35a32c6caf5971d900091e35b40de91bf7a8908fe2ce5576e6f5d3f",
+      "bytes": 9003,
+      "lines": 365
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Google%20FCM.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Google%20FCM.list",
+      "path": "base/rules/a686191f175219bef58eba89.list",
+      "sha256": "bebc9f9cee170caf65b7b537103c71ee7d75e7ea1c51c98e75ce837aafa301f6",
+      "bytes": 1565,
+      "lines": 43
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Disney%20Plus.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Disney%20Plus.list",
+      "path": "base/rules/75216b85550699fd248d9075.list",
+      "sha256": "433dc0c5705da69d53d109f1b63f40f07472fbbd2702dec9b3deceacfa2a25f3",
+      "bytes": 313,
+      "lines": 10
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Max.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Max.list",
+      "path": "base/rules/19129c2f00cf8c0d838d4e98.list",
+      "sha256": "5afcbd97ef00a3c0b95ee151efdbe49149a0fd3e2b0119d9f15057801cbbc906",
+      "bytes": 535,
+      "lines": 20
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netease%20Music.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netease%20Music.list",
+      "path": "base/rules/180a0d09736dc38276a17ac5.list",
+      "sha256": "8a0b7acd00eb56ac3283c61995e6d3711f4919011fa0624266c390b768a64d7b",
+      "bytes": 74,
+      "lines": 3
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Netflix.list",
+      "path": "base/rules/7bcdff5290ce812fe31d0271.list",
+      "sha256": "ef257b1f82bd2fa08d96a48d3820e5f614f29c725f9b5ae4ba7ac3e9d8d990ab",
+      "bytes": 195,
+      "lines": 8
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/Spotify.list",
+      "path": "base/rules/01b9f95c9fb253854c51bf23.list",
+      "sha256": "f246b37c350c0ada8916a3c2c17da2f87d481da7d2eab7cb687e2ba69d7b6c62",
+      "bytes": 870,
+      "lines": 28
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/YouTube%20Music.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/YouTube%20Music.list",
+      "path": "base/rules/659411e811417b790705a5cf.list",
+      "sha256": "94ee2d1920f2556933a2987c41224926eb3090beb4b27023ae37ba2f6536f843",
+      "bytes": 85,
+      "lines": 3
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/YouTube.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Media/YouTube.list",
+      "path": "base/rules/57ff55e3b97be47f74f63812.list",
+      "sha256": "bbafe5c786f897023dad27f657ffaf33ff93570bc81cfd8e77d3a84cc36f1507",
+      "bytes": 4531,
+      "lines": 168
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Microsoft.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Microsoft.list",
+      "path": "base/rules/5d14d78b675bc8773e4b976c.list",
+      "sha256": "67d6395bbf51b2c1888646aefe874529ccb3e54ee27e59ed36594ef973b47363",
+      "bytes": 17581,
+      "lines": 609
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/PayPal.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/PayPal.list",
+      "path": "base/rules/5129f92223fcb3dd77e0cc0c.list",
+      "sha256": "0f9f4786b546f86f4961b8a070e87e27e03e8008fe0fce1ea5fbfa769fee2079",
+      "bytes": 87,
+      "lines": 4
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Proxy.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Proxy.list",
+      "path": "base/rules/3599cec220f177afc4021490.list",
+      "sha256": "bdf0e700c9fb59ddb6e3290c1798a13256c15557642ffccad26e9a01a3526a60",
+      "bytes": 27827,
+      "lines": 1069
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Scholar.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Scholar.list",
+      "path": "base/rules/3505e48de7e3c68187a514a1.list",
+      "sha256": "41521a67feb4ff91cc226200a2dd4804b66d1500ae3f2310bf94223ac17ae615",
+      "bytes": 2205,
+      "lines": 81
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Special.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Special.list",
+      "path": "base/rules/299d72b293b0c76de82d3250.list",
+      "sha256": "aa06b2152950946dbd4b3dc64b429c782b9a1ff43109a14ffc731365b6141f67",
+      "bytes": 3295,
+      "lines": 143
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Speedtest.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Speedtest.list",
+      "path": "base/rules/81c9cc579b078585a3163fa6.list",
+      "sha256": "1babeec8cff9e1ada9aa9f14ac6bdda05e3d3fbfbf607f605f485ffe960ebdb4",
+      "bytes": 283,
+      "lines": 13
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Steam.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Steam.list",
+      "path": "base/rules/6ec90b8df9fbda19f16e58b3.list",
+      "sha256": "35b222cbca9f0109d15f3ec979062d3ef1d803fbeb92d62669cbd86f55078b92",
+      "bytes": 222,
+      "lines": 8
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Telegram.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Telegram.list",
+      "path": "base/rules/df4c10df701574a954e12241.list",
+      "sha256": "4b16068a69d1c0532197a7cb5e671e26d080b2e1d449af06d489d9b4e7de8836",
+      "bytes": 996,
+      "lines": 33
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/miHoYo.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/miHoYo.list",
+      "path": "base/rules/d13e51c9d54da1cc85e4eb77.list",
+      "sha256": "c082ad920c1e20ffe3c43ad2dc5dc1657f63b34f613f4098432f01e7aa8b9d42",
+      "bytes": 191,
+      "lines": 8
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Domestic.list",
+      "path": "base/rules/21a75ea9fa4ea0a43c664334.list",
+      "sha256": "86463747f35a32c6caf5971d900091e35b40de91bf7a8908fe2ce5576e6f5d3f",
+      "bytes": 9003,
+      "lines": 365
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list",
+      "path": "base/rules/6a05fb5425f0fbcb504f98f2.list",
+      "sha256": "8a0b7acd00eb56ac3283c61995e6d3711f4919011fa0624266c390b768a64d7b",
+      "bytes": 74,
+      "lines": 3
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Proxy.list",
+      "path": "base/rules/9dd4730110f0e8d577ca7828.list",
+      "sha256": "bdf0e700c9fb59ddb6e3290c1798a13256c15557642ffccad26e9a01a3526a60",
+      "bytes": 27827,
+      "lines": 1069
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Special.list",
+      "source_url": "https://raw.githubusercontent.com/dler-io/Rules/master/Surge/Surge%203/Provider/Special.list",
+      "path": "base/rules/347142ebcf1d52c8038a5682.list",
+      "sha256": "aa06b2152950946dbd4b3dc64b429c782b9a1ff43109a14ffc731365b6141f67",
+      "bytes": 3295,
+      "lines": 143
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/juewuy/ShellClash/master/rules/ai.list",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellClash/master/rules/ai.list",
+      "path": "base/rules/f2387df00e772bfdf2ebe676.list",
+      "sha256": "1424039752f64ec89041d4dc02933b730d506998a38c317dae44a197e89d9d2d",
+      "bytes": 580,
+      "lines": 21
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list",
+      "source_url": "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list",
+      "path": "base/rules/042a9fae506fc104918216aa.list",
+      "sha256": "1207410d42608ed0df3232ee5f41b9ea49420f40990be3dea7bf503edb459e92",
+      "bytes": 297,
+      "lines": 10
+    },
+    {
+      "reference": "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Netease%20Music%20IP.list",
+      "source_url": "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Netease%20Music%20IP.list",
+      "path": "base/rules/6e530c1c4b06e406e3512408.list",
+      "sha256": "ecfd83aa8edea6c51c8d3a2c26fbdef3ffb0b17912c5d27e458d8ef29070b504",
+      "bytes": 482,
+      "lines": 19
+    }
+  ]
+}

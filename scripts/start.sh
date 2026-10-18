@@ -14,6 +14,7 @@
 . "$CRASHDIR"/libs/check_autostart.sh
 . "$CRASHDIR"/libs/compare.sh
 . "$CRASHDIR"/libs/logger.sh
+[ ! -f "$CRASHDIR/local/manager.sh" ] || sh "$CRASHDIR/local/manager.sh" intent "$1" #local-manager-intent
 . "$CRASHDIR"/libs/web_save.sh
 #特殊脚本
 bfstart(){

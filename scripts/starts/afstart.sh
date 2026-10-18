@@ -12,6 +12,7 @@
 . "$CRASHDIR"/libs/check_cmd.sh
 . "$CRASHDIR"/libs/logger.sh
 . "$CRASHDIR"/libs/set_cron.sh
+[ ! -f "$CRASHDIR/local/manager.sh" ] || sh "$CRASHDIR/local/manager.sh" register #local-manager-cron
 #缺省值
 [ -z "$firewall_area" ] && firewall_area=1
 #延迟启动

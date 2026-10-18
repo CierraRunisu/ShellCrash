@@ -22,7 +22,9 @@ upgrade() {
             checkupdate
         fi
         [ -z "$core_v" ] && core_v=$crashcore
+        [ ! -x "$CRASHDIR/local/manager.sh" ] || core_v=$(sh "$CRASHDIR/local/manager.sh" version) #local-manager-version
         core_v_new=$(eval echo \$"$crashcore"_v)
+        if [ -x "$CRASHDIR/local/manager.sh" ]; then lm_latest=$(sh "$CRASHDIR/local/manager.sh" latest-cached); [ -z "$lm_latest" ] || core_v_new="$lm_latest"; fi #local-manager-latest
         top_box "\033[30;47m$UPG_TITLE\033[0m" \
             "" \
             "$UPG_CUR_DIR_SPACE(\033[32m$CRASHDIR\033[0m)：\033[36m$(dir_avail "$CRASHDIR" -h)\033[0m"
@@ -151,6 +153,7 @@ getscripts() {
             error_down
         else
             . "$CRASHDIR"/init.sh >/dev/null
+            [ ! -f "$CRASHDIR"/local/apply.sh ] || sh "$CRASHDIR"/local/apply.sh >>"$CRASHDIR"/local/apply.log 2>&1 || echo "本地补丁恢复失败，请查看 local/apply.log" >&2 #local-upx
             echo "$release_type" | grep -qE '^[0-9]' && setconfig userguide #回退时重新新手引导
             content_line "\033[32m$UPG_SCRIPT_OK\033[0m"
             separator_line "="

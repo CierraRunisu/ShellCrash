@@ -85,6 +85,7 @@ tools() {
             "$TOOLS_DISK_USAGE" \
             "$(du -sh "$CRASHDIR")"
         content_line "$TOOLS_MENU_TEST_ITEM"
+        content_line "a) 本地维护中心（状态/安全更新/自愈/空间/诊断）" #local-manager-menu
         content_line "$TOOLS_MENU_GUIDE_ITEM"
         content_line "$TOOLS_MENU_LOG_ITEM"
         [ -f /etc/firewall.user ] && content_line "$TOOLS_MENU_SSH_ITEM"
@@ -94,6 +95,7 @@ tools() {
         btm_box "" \
             "0) $COMMON_BACK"
         read -r -p "$COMMON_INPUT> " num
+        if [ "$num" = a ]; then sh "$CRASHDIR/local/manager.sh" menu; continue; fi #local-manager-run
         case "$num" in
         "" | 0)
             break

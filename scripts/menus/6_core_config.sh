@@ -41,9 +41,11 @@ set_core_config() {
             "c) $CORECFG_MENU_C" \
             "d) $CORECFG_MENU_D" \
             "e) $CORECFG_MENU_E" \
+            "f) \033[33m本地转换配置文件\033[0m(subconverter)" "g) \033[36m本地转换设置\033[0m" \
             "" \
             "0) $COMMON_BACK"
         read -r -p "$COMMON_INPUT_L> " num
+        if [ "$num" = f ] || [ "$num" = g ]; then . "$CRASHDIR"/libs/subconv.sh; if [ "$num" = f ]; then subconv_gen; else subconv_menu; fi; continue; fi #local-subconv-run
         case "$num" in
         "" | 0)
             break

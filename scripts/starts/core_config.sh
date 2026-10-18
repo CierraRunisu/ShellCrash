@@ -33,6 +33,7 @@ get_core_config() { #下载内核配置文件
     Server=$(grep -aE '^3|^4' "$CRASHDIR"/configs/servers_${i18n}.list | sed -n ""$server_link"p" | awk '{print $3}')
     Server_ua=$(grep -aE '^4' "$CRASHDIR"/configs/servers_${i18n}.list | sed -n ""$server_link"p" | awk '{print $4}')
     Config=$(grep -aE '^5' "$CRASHDIR"/configs/servers_${i18n}.list | sed -n ""$rule_link"p" | awk '{print $3}')
+    if [ -f "$CRASHDIR"/libs/subconv.sh ]; then . "$CRASHDIR"/libs/subconv.sh && subconv_prepare || return 1; elif [ "$sub_only" = ON ]; then echo "仅本地组件缺失，已拒绝在线转换" >&2; return 1; fi #local-subconv-pre
     gen_ua
     #如果传来的是Url链接则合成Https链接，否则直接使用Https链接
     if [ -z "$Https" ]; then
@@ -51,13 +52,14 @@ get_core_config() { #下载内核配置文件
     #输出
     echo "-----------------------------------------------"
     logger "正在连接服务器获取【$target】配置文件…………" 36
-    echo -e "链接地址为：\033[4;32m$Https\033[0m"
-    echo 可以手动复制该链接到浏览器打开并查看数据是否正常！
+    if [ "$sub_only" = ON ]; then echo "仅本地转换请求：订阅参数已隐藏"; else echo -e "链接地址为：\033[4;32m$Https\033[0m"; fi #local-subconv-private
+    [ "$sub_only" = ON ] || echo 可以手动复制该链接到浏览器打开并查看数据是否正常！ #local-subconv-help
     #获取在线config文件
     core_config_new="$TMPDIR"/"$target"_config."$format"
     rm -rf "$core_config_new"
     webget "$core_config_new" "$Https" echoon rediron skipceron "$user_agent"
     if [ "$?" != "0" ]; then
+    [ "$sub_only" != ON ] || { rm -f "$core_config_new"; Https=""; logger "仅本地转换失败，已阻止在线回退，现有配置保留" 31; return 1; } #local-subconv-fail
         if [ -z "$url_type" ]; then
             echo "-----------------------------------------------"
             logger "配置文件获取失败！" 31
@@ -104,6 +106,7 @@ get_core_config() { #下载内核配置文件
             mv -f "$core_config_new" "$core_config"
         fi
         echo -e "\033[32m已成功获取配置文件！\033[0m"
+        [ "$(command -v subconv_after)" ] && subconv_after #local-subconv-end
     fi
     return 0
 }

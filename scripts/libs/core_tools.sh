@@ -82,10 +82,12 @@ core_check(){
         setconfig crashcore "$crashcore"
         setconfig core_v "$core_v"
         setconfig custcorelink "$custcorelink"
+        [ -f "$CRASHDIR"/libs/core_upx.sh ] && . "$CRASHDIR"/libs/core_upx.sh && core_upx_fix #local-upx
         return 0
     fi
 }
 core_webget(){
+if [ "$crashcore" = meta ] && [ -z "$custcorelink" ] && [ -f "$CRASHDIR/local/manager.sh" ]; then sh "$CRASHDIR/local/manager.sh" update latest; return $?; fi #local-manager-safe-core
     . "$CRASHDIR"/libs/web_get_bin.sh
     . "$CRASHDIR"/libs/check_target.sh
     if [ -z "$custcorelink" ];then

@@ -11,6 +11,8 @@
 [ -f "$CRASHDIR"/.start_error ] && exit 1
 #加载工具
 . "$CRASHDIR"/libs/check_cmd.sh
+[ ! -f "$CRASHDIR/local/manager.sh" ] || sh "$CRASHDIR/local/manager.sh" boot-wait || exit 1 #local-manager-usb
+[ ! -f "$CRASHDIR"/libs/subconv.sh ] || { . "$CRASHDIR"/libs/subconv.sh && subconv_before_core; } || exit 1 #local-subconv-before
 . "$CRASHDIR"/libs/check_target.sh
 . "$CRASHDIR"/libs/logger.sh
 . "$CRASHDIR"/libs/web_get_bin.sh

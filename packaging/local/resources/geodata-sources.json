@@ -1,0 +1,35 @@
+{
+  "snapshot_date": "2026-10-18",
+  "resources": [
+    {
+      "path": "ruleset/cn.mrs",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellCrash/update/bin/geodata/mrs_geosite_cn.mrs",
+      "sha256": "c108be0143fbf3e0219d28afca45c60aa80dd02fd1b5987dfd243d606aa49417",
+      "bytes": 530045
+    },
+    {
+      "path": "cn_ip.txt",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellCrash/update/bin/geodata/china_ip_list.txt",
+      "sha256": "52102e2431d7738f00a4c72a4346329eae933b9b1f061380eda5c350f193217e",
+      "bytes": 71362
+    },
+    {
+      "path": "cn_ipv6.txt",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellCrash/update/bin/geodata/china_ipv6_list.txt",
+      "sha256": "d9bb0f6837430535bd35ddac2259eeb5368b4020a7877c627087eeed79e64a2c",
+      "bytes": 37632
+    },
+    {
+      "path": "Country.mmdb",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellCrash/update/bin/geodata/cn_mini.mmdb",
+      "sha256": "f4ae8bf5274cc68b404ad1be886199bf7840a0d21d8866baffe5f9cd0e602a42",
+      "bytes": 132866
+    },
+    {
+      "path": "GeoSite.dat",
+      "source_url": "https://raw.githubusercontent.com/juewuy/ShellCrash/update/bin/geodata/geosite.dat",
+      "sha256": "854164d97f88d0d14c520c87bb0f0e2468bb30b01e028d20ac4830de7bd7a3a8",
+      "bytes": 4272843
+    }
+  ]
+}
